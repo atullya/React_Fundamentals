@@ -1,0 +1,15 @@
+.showForm {
+  background-color:#cfd5de;
+  margin: 0;
+  position: absolute;
+  width: 350px;
+  top: -50%;
+  /* display: none; */
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transition: 0.5s ease-in-out;
+}
+.showFormActive {
+  top: 55%;
+}

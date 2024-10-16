@@ -1,0 +1,17 @@
+
+.menu {
+  width: 20%;
+  position: fixed;
+  right: -50%;
+  height: 100vh;
+  background-color: yellow;
+  text-align: left;
+  transition: 0.5s ease-in-out;
+}
+.menu ul {
+  list-style: none;
+  padding: 10px 10px;
+}
+.active-menu {
+  right: 5px;
+}

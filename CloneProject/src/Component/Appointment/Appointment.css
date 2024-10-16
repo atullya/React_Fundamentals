@@ -1,0 +1,21 @@
+.content {
+  border: 1px solid black;
+  display: none;
+}
+.activecontent {
+  display: block;
+}
+/* Appointment.css */
+
+/* Ensure button styles remain consistent and prevent shifting */
+button {
+  outline: none; /* Remove any focus outline */
+  transition: background-color 0.3s ease-in-out; /* Smooth transition for background color */
+}
+
+/* Ensure consistent spacing and prevent size changes */
+button.bg-blue-600,
+button.bg-slate-700 {
+  box-sizing: border-box; /* Include padding and border in the element’s width and height */
+  padding: 12px 24px; /* Consistent padding */
+}

@@ -1,0 +1,78 @@
+.menu {
+  width: 20%;
+  position: fixed;
+  text-align: left;
+  height: 100vh;
+  background-color: blue;
+  left: -100%;
+  transition: 0.5s;
+}
+.activeMenu {
+  left: 0px;
+}
+.menu ul {
+  list-style: none;
+  padding: 20px;
+}
+.micon {
+  position: absolute;
+  right: 20px;
+}
+.modalOverlay {
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.ModalDiv {
+  width: 300px;
+  height: 300px;
+  position: fixed;
+  background-color: white;
+  left: 50%;
+  transition: 0.5s ease;
+  top: -50%;
+  transform: translate(-50%, -50%);
+}
+.showModalDiv {
+  top: 50%;
+}
+.modalshow {
+  display: block;
+}
+.en {
+  position: fixed;
+  right: -30px;
+  top: 200px;
+  transform: rotate(90deg);
+}
+/* faq */
+.faqouter {
+  width: 1320px;
+  margin: auto;
+}
+.faqItems {
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+.faqItems h2 {
+  margin: 0px;
+  padding: 10px;
+  background-color: #283428;
+  color: white;
+  cursor: pointer;
+}
+.faqItems p {
+  text-align: left;
+  padding: 10px;
+  margin: 0;
+  height: 0px;
+  transition: 0.5s;
+  transform: scaleY(0);
+}
+.activeans{
+  height: auto !important;
+  transform:  scaleY(1)!important;
+  padding:10px !important;
+}

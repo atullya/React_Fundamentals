@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(40, 40, 134);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.passwordbox {
+  width: 380px;
+  height: 400px;
+  background-color: rgb(228, 152, 152);
+  padding: 20px;
+}
+.passwordBoxin {
+  display: flex;
+  align-items: center;
+}
+.passwordBoxin input {
+  flex-basis: 80%;
+  margin: 10px;
+  height: 40px;
+}
+.passwordBoxin button {
+  flex-basis: 20%;
+  outline: none;
+  border: 10px;
+  height: 40px;
+  border-radius: 5px;
+}
+.passlength {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+.passlength label {
+  flex-basis: 80%;
+}
+.passlength input {
+  width: 20%;
+}
+button {
+  outline: none;
+  width: 200px;
+  text-align: center;
+  margin: auto 50px;
+  cursor: pointer;
+}

@@ -1,0 +1,62 @@
+form {
+  width: 100px;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+}
+form input {
+  height: 40px;
+  flex-basis: 90%;
+}
+form input {
+  flex-basis: 20%;
+}
+.outerdif {
+  margin: 20px;
+}
+.outerdif ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.outerdif ul li {
+  margin-top: 20px;
+  position: relative;
+  font-size: 20px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.outerdif ul li span {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+.tabsOuter {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+.tabsOuter ul {
+  list-style: none;
+  display: flex;
+
+  justify-content: space-between;
+}
+.tabsOuter ul li {
+  margin: 10px;
+}
+.tabsOuter ul li button {
+  background-color: #e4e4e4;
+  border: none;
+  color: #343434;
+  padding: 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.activeButton {
+  background-color: red !important;
+  color: white !important;
+}

@@ -1,0 +1,13 @@
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+.sub-cat{
+  display: flex;
+  justify-content: space-around;
+}
+.popular,.trending{
+  background-color: aqua;
+}

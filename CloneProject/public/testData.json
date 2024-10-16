@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Fever Profile 1",
+    "ntest": "8 Tests Included",
+    "originalPrice": "Rs. 2030",
+    "oldPrice": "Rs. 20900",
+    "image": "assests/Images/Test/Fever.png"
+  },
+  {
+    "id": 2,
+    "title": "Post Covid Packages",
+    "ntest": "11 Tests Included",
+    "originalPrice": "Rs. 2730",
+    "oldPrice": "Rs. 3900",
+    "image": "assests/Images/Test/Covid.png"
+  },
+  {
+    "id": 3,
+    "title": "Kidney Test",
+    "ntest": "8 Tests Included",
+    "originalPrice": "Rs. 490",
+    "oldPrice": "Rs. 700",
+    "image": "assests/Images/Test/Kidney.png"
+  },
+  {
+    "id": 4,
+    "title": "Lite Whole Body Package",
+    "ntest": "13 Tests Included",
+    "originalPrice": "Rs. 1365",
+    "oldPrice": "Rs. 1950",
+    "image": "assests/Images/Test/WholeBody.png"
+  },
+  {
+    "id": 5,
+    "title": "Diabetes",
+    "ntest": "7 Tests Included",
+    "originalPrice": "Rs. 875",
+    "oldPrice": "Rs. 1250",
+    "image": "assests/Images/Test/Diabetes.png"
+  },
+  {
+    "id": 6,
+    "title": "Vitamins",
+    "ntest": "2 Tests Included",
+    "originalPrice": "Rs. 1890",
+    "oldPrice": "Rs. 2700",
+    "image": "assests/Images/Test/Vitamins.png"
+  }
+]
